@@ -10,10 +10,14 @@ The board is provided with:
 - PMOD-Huawei
 - Empire board
 
-Configuration MU709S
-********************
+Configuration MU709S2
+*********************
 
-The MU705 has the auto-baudrate, when you send a charachter from the minicom the MU705 sets its baudrate. We have setted in production the device in this way:
+The MU709S2 works with auto-baudrate or baudrate fixed:
+- auto-baudrate: the first time you sent a data to the device, it will set its baudrate as yours.
+- The device starts with a fixed baudrate and it sends data about its configuration
+
+We have configurated the device with baudrate fixed in this way:
 
 0. Connect the board with the PC via USB
 
@@ -34,7 +38,7 @@ Useful general AT Commands
 **************************
 
 - **AT+GMR**: permits to know the firmware version. Actually the version is **11.652.65.00.00**
-- **AT+CPIN?**: if MU709S replies with *READY*, the SIM (or the eUICC) is correctly seen
+- **AT+CPIN?**: if MU709S2/ME909S replies with *READY*, the SIM (or the eUICC) is correctly seen
 - **AT+CSQ**: it is used to check the quality of the signal:
 
 ====== =================================
@@ -55,7 +59,7 @@ Please refer to:
 
 - the `architech-board <http://architechboards.org>`_ website. 
 
-- the `mu709s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
+- the `mu709S2 documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
 
 - the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/me909s_821_en.htm>`_
 

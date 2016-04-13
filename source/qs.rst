@@ -5,7 +5,7 @@
 Quick start guide
 -----------------
 
-In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the following commands you will be able to navigate on the internet via the PMOD-Huawei. These steps are equal for both version of the boards ME909s and MU709.
+In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the following commands you will be able to navigate on the internet via the PMOD-Huawei. These steps are equal for both version of the boards ME909s and MU709S2.
 
 1. On the PMOD-Huawei board insert the antenna in **CN4** connector
 

@@ -25,20 +25,19 @@ PMOD-Huawei Solution
 
 PMOD-Huawei board has mounted an Huawei device with the possibility using SIM or eUICC interface. Using the **Empire** board it is possible send via virtual com AT commands. There are 2 version of this board:
 
-- **BAEPMOD-COM-019-A01** with mounted **MU709s** device
+- **BAEPMOD-COM-019-A01** with mounted **MU709S2** device
 - **BAEPMOD-COM-021-A01** with mounted **ME909s** devuce
 
 BAEPMOD-COM-019-A01
 -------------------
 
-**MU709** family is high-quality designed HSPA+ module in small size and Huawei standard LGA form factor which specially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
+**MU709S2** family is high-quality designed HSPA+ module in small size and Huawei standard LGA form factor which specially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
 
-Based on Huawei standard LGA technology, the M709 modules provide a smoothly path to Huawei LTE high-speed modules.
+Based on Huawei standard LGA technology, the M709S2 modules provide a smoothly path to Huawei LTE high-speed modules.
 
-MU709 family supports 21.6Mbps downlink data rate, providing data and voice service under global GSM/GPRS/EDGE/WCDMA/HSDPA/HSUPA/HSPA+ networks. The module also include enhanced features like embedded TCP/IP stack, SMTP, FOTA, Jamming Detection, Netscan, CMUX, SSL, eCall, Huawei enhanced AT commands, cell lock, network monitoring, DTMF decoder, baud rate adaptation, multi PDP, SIM swap, .etc.
+MU709S2 family supports 21.6Mbps downlink data rate, providing data and voice service under global GSM/GPRS/EDGE/WCDMA/HSDPA/HSUPA/HSPA+ networks. The module also include enhanced features like embedded TCP/IP stack, SMTP, FOTA, Jamming Detection, Netscan, CMUX, SSL, eCall, Huawei enhanced AT commands, cell lock, network monitoring, DTMF decoder, baud rate adaptation, multi PDP, SIM swap, .etc.
 
 Features:
-
 
 - Bands: HSPA+/UMTS dual-band 900/2100 MHz, GSM/GPRS quad-band 850/900/1800/1900 MHz
 - Data Transfer Rate: Downlink:21.6 Mbps, Uplink: 5.76 Mbps
@@ -79,7 +78,7 @@ Features:
 Developement tools
 ******************
 
-The **ME909s** and **MU709s** uart interface is implemented with the **Empire** board, follow instruction inside :ref:`quick`
+The **ME909s** and **MU709S2** uart interface is implemented with the **Empire** board, follow instruction inside :ref:`quick`
 
 Document references
 *******************
@@ -88,7 +87,7 @@ The board reference documentation is available on:
 
 - the `architech-board <http://architechboards.org>`_ website. 
 
-- the `mu709s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
+- the `mu709S2 documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
 
 - the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/me909s_821_en.htm>`_
 
