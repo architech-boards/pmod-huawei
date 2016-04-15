@@ -9,15 +9,25 @@ In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the fol
 
 1. On the PMOD-Huawei board insert the antenna in **CN4** connector
 
+.. image:: _static/board_709.jpg
+
 2. Insert your SIM card in the slot located in the bottom layer of the PMOD-Huawei
+
+.. image:: _static/board_bottom_sim.jpg
 
 3. Insert the jumper from **PIN2** and **PIN3** of the **SW1**
 
+.. image:: _static/board_709_jumper.jpg
+
 4. Connect the empire board into the PMOD-Huawei **CN6** connector
+
+.. image:: _static/board_709_cn6.jpg
 
 5. Connect the Empire board to the PC
 
-6. When the **LED1** on the PMOD-Huawei will start to blink steadly every 1 second the module will be connected to the netowrk
+6. When the **LED1** on the PMOD-Huawei will start to blink steadly every 1 second the module will be connected to the netowrk (feature only for **MU709S2**)
+
+.. image:: _static/board_709_led1.jpg
 
 7. Use minicom and connect on the **/dev/ttyACM0** baudrate: 115200, 8N1
 

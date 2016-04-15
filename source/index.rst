@@ -14,8 +14,6 @@ PMOD-Huawei Solution
 
 .. image:: _static/logo_silica_huawei.jpg
 
-.. image:: _static/board_on.jpg
-
 *PMOD-Huawei*
 
 .. index:: index
@@ -30,6 +28,8 @@ PMOD-Huawei board has mounted an Huawei device with the possibility using SIM or
 
 BAEPMOD-COM-019-A01
 -------------------
+
+.. image:: _static/board_709.jpg
 
 **MU709S2** family is high-quality designed HSPA+ module in small size and Huawei standard LGA form factor which specially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
 
@@ -53,6 +53,8 @@ Features:
 
 BAEPMOD-COM-021-A01
 -------------------
+
+.. image:: _static/board_909.jpg
 
 **ME909s** is the first LTE cat4 module based on Hi-Silicon chipset. Which is high-quality designed LTE module in small size and Huawei standard LGA form factor, especially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
 
