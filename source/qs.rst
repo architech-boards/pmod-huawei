@@ -9,7 +9,7 @@ In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the fol
 
 1. On the PMOD-Huawei board insert the antenna in **CN4** connector
 
-.. image:: _static/board_709.jpg
+.. image:: _static/board_709_antenna.jpg
 
 2. Insert your SIM card in the slot located in the bottom layer of the PMOD-Huawei
 
