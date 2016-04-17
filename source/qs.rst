@@ -19,17 +19,30 @@ In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the fol
 
 .. image:: _static/board_709_jumper.jpg
 
-4. Connect the empire board into the PMOD-Huawei **CN6** connector
+4. Connect board with PMOD interface TYPE 4 to **CN6** connector
 
+.. image:: _static/pmod_type4.jpg
 .. image:: _static/board_709_cn6.jpg
 
-5. Connect the Empire board to the PC
+The **PIN1** of the **CN6** is signed with a white triangle on the board.
+
+5. In the PMOD-TYPE4 interface are used the line in the following way:
+
+  - CTS: not used (**CN6 PIN1**)
+  - TX: used
+  - RX: used
+  - RTS: not used
+  - INT: at startup setted high then setted low only for 1 seconds (**CN6 PIN7**)
+  - RST: setted high
+  - IO7: not used
+  - IO8: not used
+  - GND & VCC: used
 
 6. When the **LED1** on the PMOD-Huawei will start to blink steadly every 1 second the module will be connected to the netowrk (feature only for **MU709S2**)
 
 .. image:: _static/board_709_led1.jpg
 
-7. Use minicom and connect on the **/dev/ttyACM0** baudrate: 115200, 8N1
+7. We used an device in order to comunicate via UART 3v3 to the pmod interface. For example we used minicom connecting to **/dev/ttyACM0** at baudrate: 115200, 8N1
 
 8. If all works correctly sending the command *AT* the PMOD will reply with *OK*
 
@@ -55,6 +68,6 @@ Where *"YOUR APN"* is the **Access Point Name** of your SIM
 
 .. note::
 
-  If you want use Windows, connect the **Empire** board to the PC, you have to install the right driver downloading `LPCUSBlib_VirtualSerial.inf <_static/LPCUSBlib_VirtualSerial.inf>`_ file and installing it. In this way you will have the virtual com enabled in order to comunicate with the PMOD.
+  If you want use Windows, install the right driver using `LPCUSBlib_VirtualSerial.inf <_static/LPCUSBlib_VirtualSerial.inf>`_ file and installing it. In this way you will have the virtual com enabled in order to comunicate with the PMOD.
   In this guide we don't explain how to use the PMOD-Huawei with Windows.
 
