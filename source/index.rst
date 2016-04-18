@@ -80,7 +80,7 @@ Features:
 Developement tools
 ******************
 
-The **ME909s** and **MU709S2** uart interface is implemented with the **Empire** board, follow instruction inside :ref:`quick`
+The **ME909s** and **MU709S2** uart interface can be implemented with the **Empire** board, follow instruction inside :ref:`quick`
 
 Document references
 *******************

@@ -8,7 +8,6 @@ Hardware Guide
 The board is provided with:
 
 - PMOD-Huawei
-- Empire board
 
 Configuration MU709S2
 *********************
