@@ -13,7 +13,17 @@ In this guide we used Ubuntu in order to use the PMOD-Huawei board. With the fol
 
 2. Insert your SIM card in the slot located in the bottom layer of the PMOD-Huawei
 
-.. image:: _static/board_bottom_sim.jpg
+- Open the slot:
+
+.. image:: _static/pmod-sim-void.jpg
+
+- Insert the SIM in the correct way:
+
+.. image:: _static/pmod-sim-open.jpg
+
+- Close the slot:
+
+.. image:: _static/pmod-sim-close.jpg
 
 3. Insert the jumper from **PIN2** and **PIN3** of the **SW1**
 
