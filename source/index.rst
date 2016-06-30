@@ -56,16 +56,18 @@ BAEPMOD-COM-021-A01
 
 .. image:: _static/board_909.jpg
 
-**ME909s** is the first LTE cat4 module based on Hi-Silicon chipset. Which is high-quality designed LTE module in small size and Huawei standard LGA form factor, especially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
+**ME909s-120** is the first LTE cat4 module based on Hi-Silicon chipset. Which is high-quality designed LTE module in small size and Huawei standard LGA form factor, especially for industrial-grade M2M applications such as vehicle telematics, tracking, mobile payment, industrial router, safety monitor and industrial PDAs.
 
-ME909s-821 supports 150Mbps downlink data rate, including enhanced features like FOTA, USSD and Huawei enhanced AT commands.
+- ME909s-120 supports 150Mbps downlink data rate, including enhanced features like FOTA, USSD and Huawei enhanced AT commands.
+- ME909s-120(B1/B2/B3/B4/B5/B7/B8/B20) supports EMEA region, and has two different form factor: LGA and Mini PCIe form factor.
 
-ME909s-821 supports China region LTE Bands including both FDD-LTE & TDD-LTE, and has two different form factor: LGA and Mini PCIe form factor.
+With Huawei pin-to-pin form factor, it is easy to migrate from MU609, MU709 or ME909u family to ME909s-120.
+All Huawei modules comply with the RoHS directive and Regional certification.
 
 Features:
 
-- Bands: LTE (FDD): B1,B3,B8; LTE (TDD): B38, B39,B40,B41; DC-HSPA+/HSPA+/HSPA/UMTS : B1, B5, B8,B9; TD-SCDMA: B34, B39; EDGE/GPRS/GSM : 900/1800 MHz
-- Data Transfer Rate: DC-HSPA+ :Downlink:42 Mbps, Uplink: 5.76 Mbps; LTE TDD: Downlink:112Mbps, Uplink: 10Mbps; LTE FDD: Downlink:150 Mbps, Uplink: 50 Mbps @Bandwidth 20M
+- Bands: LTE (FDD): B1,B2,B3,B4,B5,B7,B8,B20; DC-HSPA+/HSPA+/HSPA/UMTS : B1,B2,B5,B8; EDGE/GPRS/GSM: 850/900/1800/1900 MHz
+- Data Transfer Rate: DC-HSPA+ :Downlink:42 Mbps, Uplink: 5.76 Mbps; LTE FDD: Downlink:150 Mbps, Uplink: 50 Mbps @Bandwidth 20M (CAT4)
 - Interface:
     - Antenna interface
     - 145 pins LGA interface
@@ -91,7 +93,7 @@ The board reference documentation is available on:
 
 - the `mu709S2 documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
 
-- the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/me909s_821_en.htm>`_
+- the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/tech-specs/me909s_120_en.htm>`_
 
 
 Contents:

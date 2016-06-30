@@ -60,7 +60,7 @@ Please refer to:
 
 - the `mu709S2 documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/mu709s-6-en.htm>`_
 
-- the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/me909s_821_en.htm>`_
+- the `me909s documentation <http://consumer.huawei.com/en/solutions/m2m-solutions/products/support/user-guides/me909s_120_en.htm>`_
 
 .. image:: _static/logo_architech.jpg
 
