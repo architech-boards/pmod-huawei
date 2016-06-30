@@ -4,9 +4,9 @@ Welcome to PMOD-Huawei documentation!
 =====================================
 
 
-:Version: 1.00A
+:Version: 1.10A
 :Copyright: (C)2016 Avnet Memec Silica company
-:Date: 12 Apr 2016
+:Date: 30 Jun 2016
 :Reference name: BAEPMOD-COM-019-A01 and BAEPMOD-COM-021-A01
 
 PMOD-Huawei Solution
