@@ -14,8 +14,6 @@ PMOD-Huawei Solution
 
 .. image:: _static/logo_silica_huawei.jpg
 
-*PMOD-Huawei*
-
 .. index:: index
 
 **INTRODUCTION**
